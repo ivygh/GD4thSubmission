@@ -1,0 +1,73 @@
+/* Recipe.css */
+.recipe-container {
+  max-width: 70%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgb(251, 252, 252);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.form-input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+
+button {
+  background-color: #0b0c0c;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0d0d0d;
+}
+
+.search-bar {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+.recipe-list {
+  display: grid;
+  gap: 20px;
+}
+
+.recipe-item {
+  background-color: #fff;
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-item h4 {
+  color: #333;
+}
+
+.recipe-item p {
+  color: #666;
+}
+form {
+  margin-bottom: 20px;
+}
